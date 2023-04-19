@@ -95,11 +95,7 @@ static char	**fil_tab(char **dest, const char *s, char c)
 char	**ft_split(char const *s, char c)
 {
 	char	**dest;
-	int		i;
-	int		j;
 
-	i = 0;
-	j = 0;
 	if (s == NULL || s[0] == '\0')
 	{
 		dest = malloc(sizeof(char *) * 1);
