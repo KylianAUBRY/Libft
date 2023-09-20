@@ -16,6 +16,8 @@
 # include <stdlib.h>
 # include <unistd.h>
 
+#define BUFFER 255
+
 typedef struct s_list
 {
 	void			*content;
